@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="w-screen h-screen flex flex-col">
+    <div class="w-screen h-[20%] bg-cyan-500"></div>
+    <div class="w-screen h-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0">
+        <div class="bg-pink-500 w-full md:order-1 h-[100%]"></div>
+        <div class="bg-gray-500 w-full md:col-span-2 md:order-3 lg:col-span-1 h-[100%]"></div>
+        <div class="bg-orange-500 w-full md:order-2  h-[100%]"></div>
+    </div>
+    <div class="w-screen h-[20%] bg-cyan-500"></div>
+</body>
+</html>
